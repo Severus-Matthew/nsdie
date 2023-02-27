@@ -1,6 +1,6 @@
 
 .App-header {
-  background-color: floralwhite;
+  background-color: white;
   min-height: 100vh;
  
   font-size: calc(10px + 2vmin);
@@ -35,13 +35,27 @@ button {
     font-size: 18px;
 }
 
+button2 {
+    border:thin;
+    outline: 0;
+    border-radius:30%;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+}
+
 a {
     text-decoration: none;
     font-size: 22px;
     color: black;
 }
 
-    button:hover, a:hover {
+    button2:hover, a:hover {
         opacity: 0.7;
     }
 
