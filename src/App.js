@@ -13,7 +13,7 @@ function App() {
               <hr style={{ color: "black", background: "black", height: "1.5px" }} />
               <hr style={{ color: "black", background: "black", height: "3px" }} />
               <h2 style={{ color: "black", textAlign:"center",fontFamily: "Times New Roman" }}>
-                  Noise-Suppressing Dark Image Enhancement Algorithm Through MATLAB Apps</h2>
+                  NSDIE: Noise Suppressing Dark Image Enhancement Using Multiscale Retinex and Low-Rank Minimization</h2>
               <hr style={{ color: "black",background:"black", height: "3px" }} />
               <hr style={{ color: "black", background: "black", height: "1.5px" }} />
               <p style={{ color: "black", textAlign: "center", fontFamily: "Times New Roman" }}>
