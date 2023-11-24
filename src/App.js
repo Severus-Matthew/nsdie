@@ -21,21 +21,17 @@ function App() {
               <div class="card">
                   <p style={{ color: "white", textAlign: "center" }}><button style={{ fontSize: "30pt", fontFamily: "Times New Roman"}}>ABSTRACT</button></p>
                   
-                  <p style={{ fontFamily: "Times New Roman",textAlign:"justify",padding:"2%", paddingBottom:"0"}}>With the ever-increasing dependence of technological advancements
-                      on captured images has made image enhancement a concern of principal importance.
-                      The crucial information veiled by nighttime scenes expresses a huge scope to enhance
-                      them and bring forth the information hidden in their dark background. The information
-                      shadowed in these nighttime scenes is also prone to the inevitable inclusion of noise
-                      while enhancing them. The images captured using various devices thus present a mammoth
-                      challenge of enhancement before further utilization. This work proposes a noise-suppressing
-                      dark image enhancement for web apps (NSDIE) a low-rank model with simultaneous enhancement
-                      of reflectance and illumination components to improve the nighttime scenes while also
-                      eradicating the present noise of the image. The reflectance component is further processed
-                      using a multiscale retinex model to compensate for the possible color distortions while the
-                      illumination component is enhanced using the camera response model to ensure the genuineness
-                      of the scene. The proposed scheme is then packaged into a web app to aid the concerns of dark
-                      image enhancement in daily life of consumers. Extensive quantitative and qualitative analysis
-                      validates the superiority of NSDIE over various state-of-art techniques.</p>
+                  <p style={{ fontFamily: "Times New Roman",textAlign:"justify",padding:"2%", paddingBottom:"0"}}>It is inevitable for dark images to
+                    have crucial information obscured by low-light conditions, which are worsened by the presence of noise in these images.
+                      This work introduces a groundbreaking solution, Noise-Suppressing Dark Image Enhancement for Web Apps (NSDIE), 
+                      to address the challenging task of enhancing low-light images marred by noise. The proposed work utilizes a low-rank model
+                      with simultaneous enhancement of reflectance and illumination components to improve the nighttime scenes 
+                        while also eradicating the present noise of the image. The reflectance component is further processed using 
+                          a multiscale retinex model to compensate for the possible color distortions while the illumination component 
+                            is enhanced using the camera response model to ensure the genuineness of the scene. The proposed work is also
+                              tested for a standalone application and is presented to the user through a web portal to aid the concerns of dark image 
+                                enhancement in the daily life of the user. Rigorous quantitative and qualitative analyses assert 
+                                  NSDIE's superiority over existing techniques, establishing its pivotal role in addressing the critical concern of dark image enhancement.</p>
                   <p class="title" style={{ textAlign: "left", padding: "2%" }}>Index Terms - Image enhancement, nighttime scenes,
                       multiscale retinex model, camera response function.</p>
                                  
